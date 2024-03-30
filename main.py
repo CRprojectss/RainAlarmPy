@@ -8,7 +8,7 @@ LNG = "Your Loc Longitude"
 API_KEY = "YOUR API KEY"  # https://openweathermap.org/api/one-call-3#current
 
 # Set up smtp server
-smtp_server = smtplib.SMTP('smtp.gmail.com',587)
+smtp_server = smtplib.SMTP('YOUR SMTP SERVER',587)
 smtp_server.starttls()
 
 # login to acc
